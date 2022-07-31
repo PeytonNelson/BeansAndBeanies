@@ -1,20 +1,37 @@
 @font-face {
   font-family: Rumble Brave;
-  src: url(Rumble\ Brave.otf);
+  src: url(RanilleNormalRegular-axEpm.otf);
+}
+@font-face {
+  font-family: Hussar;
+  src: url(hussar-font/HussarBold.otf);
 }
 
 body {
   background-color: white;
 }
+#navList .nav-item a {
+  font-family: Hussar;
+  font-size: 13px;
+}
 
-#goHome:hover {
-  font-size:large;
-  transition:50ms;
-}#goOrderAhead:hover {
-  font-style: italic;
-}#goOrderAhead:hover {
-  font-style: italic;
+#fbIcon:hover {
+  color: #1778F2;
 }
+.card-title {
+  font-family: Hussar;
+}
+.fa-instagram:hover {
+  color: #e6683c; 
+}
+
+#jumbotronMain {
+  background-image: url(/images/coffeeShop2.jpg);
+  background-size: cover;
+  height: 650px;
+}
+
 #goOrderAhead:hover {
-  font-style: italic;
+  transition: ease-in-out;
 }
+

@@ -1,6 +1,7 @@
-$('#goOrderAhead').hover(() => {
-    $('#toGoMug').toggleClass('d-none');
-    $('#toGoMug').slideDown('slow');
+// $('#goOrderAhead').hover(() => {
+//     $('#toGoMug').toggleClass('d-none');
+//     $('#toGoMug').slideDown('slow');
 
 
-}) 
+// }) 
+
