@@ -6,7 +6,10 @@
   font-family: Hussar;
   src: url(hussar-font/HussarBold.otf);
 }
-
+@font-face {
+  font-family: Lemon;
+  src: url(LemonMilkMedium-mLZYV.otf);
+}
 body {
   background-color: white;
 }
