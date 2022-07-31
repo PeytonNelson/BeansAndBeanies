@@ -60,13 +60,14 @@
         </div>
       </nav>
 </header>
-  <div id="jumbotronMain" class="container-fluid py-5 position-relative">
-    <h1 class="display-1 position-absolute top-50 start-50 translate-middle" style="font-family:Lemon; color: aliceblue;">Beans & Beanies</h1>
+  <div id="jumbotronMain" class="container-fluid py-5 position-relative" style="background: url(/images/coffeeShop2.jpg) no-repeat center; background-size: cover; height: 650px;" data-paroller-factor="0.5";
+  data-paroller-factor-xs="0.2";>
+    <h1 class="display-1 position-absolute top-50 start-50 translate-middle" style="font-family:Lemon; color: white;">Beans & Beanies</h1>
   </div>
   <div id="infoCards">
     <h3 class="text-center fw-bolder" style="font-family:Hussar; ">Our Values</h3>
     <div class="row"></div>
-    <div class="card me-5 mt-2 ms-auto" style="max-width: 640px;">
+    <div id="cardQuality" class="card me-5 mt-2 ms-auto" style="max-width: 560px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="images/espresso.jpg" class="img-fluid rounded-start" alt="...">
@@ -80,7 +81,7 @@
         </div>
       </div>
     </div>
-    <div class="card ms-5 me-auto" style="max-width: 640px;">
+    <div id="cardDedication" class="card ms-5 me-auto" style="max-width: 560px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="images/beanieBarista.jpg" class="img-fluid rounded-start" alt="...">
@@ -94,7 +95,7 @@
         </div>
       </div>
     </div>
-    <div class="card me-5 mb-2 ms-auto" style="max-width: 640px;">
+    <div id="cardCommunity" class="card me-5 mb-2 ms-auto" style="max-width: 560px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="images/groupCoffee.jpg" class="img-fluid rounded-start" alt="...">
@@ -115,6 +116,7 @@
     <script src="jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="Bootstrap v5.2/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome-free-6.1.1-web/js/all.min.js"></script>
+    <script src="paroller.js-master/paroller.js-master/dist/jquery.paroller.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
