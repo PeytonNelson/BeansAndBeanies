@@ -1,6 +1,6 @@
 @font-face {
   font-family: Rumble Brave;
-  src: url(RanilleNormalRegular-axEpm.otf);
+  src: url(fonts/Rumble\ Brave.otf);
 }
 @font-face {
   font-family: Hussar;
@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: Lemon;
-  src: url(LemonMilkMedium-mLZYV.otf);
+  src: url(fonts/Lemon/LemonMilkMedium-mLZYV.otf);
 }
 body {
   background-color: white;
@@ -28,11 +28,6 @@ body {
   color: #e6683c; 
 }
 
-#jumbotronMain {
-  background-image: url(/images/coffeeShop2.jpg);
-  background-size: cover;
-  height: 650px;
-}
 
 #goOrderAhead:hover {
   transition: ease-in-out;
