@@ -17,6 +17,16 @@ body {
   font-family: Hussar;
   font-size: 13px;
 }
+.nav-item a:hover {
+  transition: .5s !important;
+}
+#jumbotronBtns button:hover {
+  color: white;
+  background-color:#202020;
+  border-color:#202020;
+  transition: .5s;
+  
+}
 
 #fbIcon:hover {
   color: #1778F2;
