@@ -43,3 +43,17 @@ $('#cardCommunity').paroller({
     });
 
 $('#jumbotronMain').paroller();
+
+$('#btnLoginHere').on('click', () => {
+    // $('signUpContent').addClass('d-none');
+    // $('loginContent').removeClass('d-none');
+    $('#modalSignUp').modal('hide');
+    $('#modalLogin').modal('show');
+})
+$('#btnRegisterHere').on('click', () => {
+    // $('signUpContent').removeClass('d-none');
+    // $('loginContent').addClass('d-none');
+    $('#modalLogin').modal('hide');
+    $('#modalSignUp').modal('show');
+
+})

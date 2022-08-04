@@ -60,19 +60,89 @@
         </div>
       </nav>
 </header>
-  <div id="jumbotronMain" class="container-fluid py-5 d-flex align-items-center justify-content-center" style="background: url(/images/coffeeShop2.jpg); background-repeat:no-repeat; background-position: center; background-size: cover; background-attachment: fixed; height: 100%;" data-paroller-direction="vertical" data-paroller-type="background" data-paroller-factor="1" data-paroller-factor-lg="1">
+  <div id="jumbotronMain" class="container-fluid py-5 d-flex align-items-center justify-content-center" style="background: url(/images/coffeeShop2.jpg); background-repeat:no-repeat; background-position: center; background-size: cover; background-attachment: fixed; height: 100%; padding-bottom: 75px !important;" data-paroller-direction="vertical" data-paroller-type="background" data-paroller-factor="1" data-paroller-factor-lg="1">
     <div class="">
       <div class="row">
-        <h1 class="display-1 col-12 fw-bold" style="font-family:Lemon; color: white;">Welcome!</h1>
+        <h1 class="display-1 col-12 fw-bold" style="font-family:Lemon; color: white; font-size: 100px;">Welcome!</h1>
       </div>
       <div class="row">
         <div id="jumbotronBtns" class="col-12 text-center ">
           <a class="btn btn-light" role="button" href="menu.html" style="font-family: Lemon;">Browse Menu</a>
-          <a class="btn btn-light" role="button" style="font-family: Lemon;">Sign Up</a>
+          <a class="btn btn-light" role="button" style="font-family: Lemon;" data-bs-toggle="modal" data-bs-target="#modalSignUp">Sign Up</a>
         </div>
       </div>
     </div>
   </div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalSignUp" tabindex="-1" aria-labelledby="modalSignUpLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div id="signUpContent" class="">
+        <div class="modal-header text-center">
+          <h5 class="modal-title w-100" style="font-family: Lemon; font-weight: bold;" id="modalSignUplLabel">Sign Up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+            <div id="passwordHelpBlock" class="form-text">
+              Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+            </div>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Retype Password</label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div id="loginHereBlock" class="me-auto form-text">
+            Already a member? <a id="btnLoginHere" class="txt-primary" role="button"> Login Here</a>
+          </div>
+          <button type="button" class="btn btn-success">Create Account</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div id="loginContent" class="">
+        <div class="modal-header text-center">
+          <h5 class="modal-title w-100" style="font-family: Lemon; font-weight: bold;" id="modalLoginLabel">Log In</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+            <div id="forgotPasswordBlock" class="form-text">
+              <a id="btnRegisterHere" class="txt-primary text-end" role="button">Forgot password?</a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div id="registerHereBlock" class="me-auto form-text">
+            Not a member? <a id="btnRegisterHere" class="txt-primary" role="button"> Register Here</a>
+          </div>
+          <button type="button" class="btn btn-success">Login</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   <div id="infoCards">
     <h2 class="text-center fw-bolder m-3" style="font-family:Hussar; "><u>Our Values</u></h2>
     <div class="row"></div>
