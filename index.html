@@ -60,7 +60,7 @@
         </div>
       </nav>
 </header>
-  <div id="jumbotronMain" class="container-fluid py-5 position-relative d-flex align-items-center justify-content-center" style="background: url(/images/coffeeShop2.jpg) no-repeat center; background-size: cover; height: 650px;" data-paroller-factor="0.8" data-paroller-factor-xs="0.2">
+  <div id="jumbotronMain" class="container-fluid py-5 d-flex align-items-center justify-content-center" style="background: url(/images/coffeeShop2.jpg); background-repeat:no-repeat; background-position: center; background-size: cover; background-attachment: fixed; height: 100%;" data-paroller-direction="vertical" data-paroller-type="background" data-paroller-factor="1" data-paroller-factor-lg="1">
     <div class="">
       <div class="row">
         <h1 class="display-1 col-12 fw-bold" style="font-family:Lemon; color: white;">Welcome!</h1>
@@ -120,7 +120,20 @@
     </div>
   </div>
   <footer>
+    <ul id="socialNavList" class="flex-row navbar-nav ms-md-auto align-items-center me-lg-5">
+      <li class="nav-item">
+        <a id="instaIcon" class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+      </li>
 
+      <li class="nav-item">
+        <a id="fbIcon" class="nav-link" href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+      </li>
+      <li class="nav-item fs-2 fw-lighter">|  
+      </li>
+      <li id="userItem" class="nav-item ">
+        <a id="userAnchor" class="nav-link" href="#"><i class="fa-solid fa-circle-user fa-2xl"></i></a>
+      </li>           
+    </ul>
   </footer>
     <script src="../jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="../Bootstrap v5.2/js/bootstrap.bundle.min.js"></script>

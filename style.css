@@ -40,6 +40,10 @@ body {
   
 }
 
+body, html {
+  height: 100%;
+}
+
 #fbIcon:hover {
   color: #1778F2;
 }
