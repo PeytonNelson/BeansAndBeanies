@@ -2,9 +2,9 @@
   "name": "beansandbeanies",
   "version": "1.0.0",
   "description": "Coffee Shop Web App",
-  "main": "app.js",
+  "main": "api/server.js",
   "scripts": {
-    "test": "test"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,16 @@
   },
   "homepage": "https://github.com/PeytonNelson/BeansAndBeanies#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.8.1",
+    "mongoose": "^6.5.1",
     "tedious": "^15.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
