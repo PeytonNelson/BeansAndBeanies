@@ -57,7 +57,7 @@
                   <ul id="dropdownAccount" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <li><a class="dropdown-item" href="#">Account Page</a></li>
                     <li><a class="dropdown-item" href="#">Options</a></li>
-                    <li><a class="dropdown-item" href="#">Login</a></li>
+                    <li><a class="dropdown-item" href="/login.html">Login</a></li>
                   </ul>
                 </li>           
               </ul>
@@ -73,81 +73,12 @@
       <div class="row">
         <div id="jumbotronBtns" class="col-12 text-center ">
           <a class="btn btn-light" role="button" href="menu.html" style="font-family: Lemon;">Browse Menu</a>
-          <a class="btn btn-light" role="button" style="font-family: Lemon;" data-bs-toggle="modal" data-bs-target="#modalSignUp">Sign Up</a>
+          <a class="btn btn-light" role="button" href="signUp.html" style="font-family: Lemon;">Sign Up</a>
         </div>
       </div>
     </div>
   </div>
 
-<!-- Modal -->
-<div class="modal fade" id="modalSignUp" tabindex="-1" aria-labelledby="modalSignUpLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div id="signUpContent" class="">
-        <div class="modal-header text-center">
-          <h5 class="modal-title w-100" style="font-family: Lemon; font-weight: bold;" id="modalSignUplLabel">Sign Up</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-            <div id="passwordHelpBlock" class="form-text">
-              Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-            </div>
-          </div>
-          <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Retype Password</label>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <div id="loginHereBlock" class="me-auto form-text">
-            Already a member? <a id="btnLoginHere" class="txt-primary" role="button"> Login Here</a>
-          </div>
-          <button type="button" class="btn btn-success">Create Account</button>
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div id="loginContent" class="">
-        <div class="modal-header text-center">
-          <h5 class="modal-title w-100" style="font-family: Lemon; font-weight: bold;" id="modalLoginLabel">Log In</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-            <div id="forgotPasswordBlock" class="form-text">
-              <a id="btnForgotPassword" class="txt-primary text-end" role="button">Forgot password?</a>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <div id="registerHereBlock" class="me-auto form-text">
-            Not a member? <a id="btnRegisterHere" class="txt-primary" role="button"> Register Here</a>
-          </div>
-          <button type="button" class="btn btn-success">Login</button>
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
   <div id="infoCards">
     <h2 class="text-center fw-bolder m-3" style="font-family:Hussar; "><u>Our Values</u></h2>
     <div class="row"></div>

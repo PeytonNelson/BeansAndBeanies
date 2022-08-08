@@ -44,12 +44,3 @@ $('#cardCommunity').paroller({
 
 $('#jumbotronMain').paroller();
 
-$('#btnLoginHere').on('click', () => {
-    $('#modalSignUp').modal('hide');
-    $('#modalLogin').modal('show');
-})
-$('#btnRegisterHere').on('click', () => {
-    $('#modalLogin').modal('hide');
-    $('#modalSignUp').modal('show');
-
-})
