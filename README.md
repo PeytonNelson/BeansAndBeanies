@@ -7,5 +7,6 @@ Technologies
   - JS (JQuery 3.6)
   - Node js 18.7
   - Express.js 4.18
+  - MongoDB
   
   
