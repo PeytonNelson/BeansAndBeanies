@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Rumble Brave;
+  src: url(fonts/Rumble\ Brave.otf);
+}
+@font-face {
+  font-family: Hussar;
+  src: url(fonts/hussar-font/HussarBold.otf);
+}
+/* Lemon Font-faces */
+@font-face {
+  font-family: Lemon;
+  src: url(fonts/Lemon/LemonMilkMedium-mLZYV.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Lemon;
+  src: url(fonts/Lemon/LemonMilkRegular-X3XE2.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Lemon;
+  src: url(fonts/Lemon/LemonMilkLight-owxMq.otf);
+  font-weight: lighter;
+}
+body {
+  background-color: white;
+}
+#navList .nav-item a {
+  font-family: Hussar;
+  font-size: 13px;
+}
+.nav-item a:hover {
+  transition: .5s !important;
+}
+#jumbotronBtns a:hover {
+  color: white;
+  background-color:#202020;
+  border-color:#202020;
+  transition: .5s;
+  
+}
+
+body, html {
+  height: 100%;
+}
+
+#fbIcon:hover {
+  color: #1778F2;
+}
+.card-title {
+  font-family: Hussar;
+}
+.fa-instagram:hover {
+  color: #e6683c; 
+}
+
+#goOrderAhead:hover {
+  transition: ease-in-out;
+}
+

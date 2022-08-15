@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beans and Beanies</title>
+
+        
+    <link href="../Bootstrap v5.2/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="../fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" style="font-family:Lemon; font-size:30px;" href="#">Beans & Beanies</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mt-3" id="navbarNavDropdown">
+            <ul id="navList" class="navbar-nav ms-auto">
+              <li class="nav-item me-5">
+                <a id="goHome" class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li id="menuList" class="nav-item dropdown me-5">
+                <a id="goMenu" class="nav-link" href="menu.html" id="navbarDropdownMenuLink" role="button" aria-expanded="false">
+                 MENU
+                </a>
+                <ul id="dropdownMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Drinks</a></li>
+                  <li><a class="dropdown-item" href="#">Food</a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li> 
+              <li class="nav-item me-4">
+                <a id="goAboutUS" class="nav-link" href="about.html">ABOUT US</a>
+              </li>
+              <li id="orderAheadItem" class="nav-item me-5">
+                <a id="goOrderAhead" class="nav-link" href="orderAhead.html">ORDER AHEAD</a>
+              </li>           
+            </ul>
+            <ul id="socialNavList" class="flex-row navbar-nav ms-md-auto align-items-center me-lg-5">
+                <li class="nav-item">
+                  <a id="instaIcon" class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </li>
+
+                <li class="nav-item">
+                  <a id="fbIcon" class="nav-link" href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                </li>
+                <li class="nav-item fs-2 fw-lighter">|  
+                </li>
+                <li id="userItem" class="nav-item dropdown me-5">
+                  <a id="userAnchor" role="button" class="nav-link dropdown-toggle"  data-bs-toggle="dropdown" ><i class="fa-solid fa-circle-user fa-2xl"></i></a>
+                  <ul id="dropdownAccount" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Account Page</a></li>
+                    <li><a class="dropdown-item" href="#">Options</a></li>
+                    <li><a class="dropdown-item" href="./login.html">Login</a></li>
+                  </ul>
+                </li>           
+              </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+  <div id="jumbotronMain" class="container-fluid py-5 d-flex align-items-center justify-content-center" style="background: url(../images/coffeeShop2.jpg); background-repeat:no-repeat; background-position: center; background-size: cover; background-attachment: fixed; height: 100%; padding-bottom: 75px !important;" data-paroller-direction="vertical" data-paroller-type="background" data-paroller-factor="1" data-paroller-factor-lg="1">
+    <div class="">
+      <div class="row">
+        <h1 class="display-1 col-12 fw-bold" style="font-family:Lemon; color: white; font-size: 100px;">Welcome!</h1>
+      </div>
+      <div class="row">
+        <div id="jumbotronBtns" class="col-12 text-center ">
+          <a class="btn btn-light" role="button" href="menu.html" style="font-family: Lemon;">Browse Menu</a>
+          <a class="btn btn-light" role="button" href="signUp.html" style="font-family: Lemon;">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="infoCards">
+    <h2 class="text-center fw-bolder m-3" style="font-family:Hussar; "><u>Our Values</u></h2>
+    <div class="row"></div>
+    <div id="cardQuality" class="card me-5 mt-2 mb-2 ms-auto" style="width: 30%;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../images/espresso.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Quality</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="cardDedication" class="card ms-5 me-auto mb-2" style="width: 30%;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../images/beanieBarista.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Dedication</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="cardCommunity" class="card me-5 mb-2 ms-auto" style="width: 30%;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../images/community.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Community</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <ul id="socialNavList" class="flex-row navbar-nav ms-md-auto align-items-center me-lg-5">
+      <li class="nav-item">
+        <a id="instaIcon" class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+      </li>
+
+      <li class="nav-item">
+        <a id="fbIcon" class="nav-link" href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+      </li>
+      <li class="nav-item fs-2 fw-lighter">|  
+      </li>
+      <li id="userItem" class="nav-item ">
+        <a id="userAnchor" class="nav-link" href="#"><i class="fa-solid fa-circle-user fa-2xl"></i></a>
+      </li>           
+    </ul>
+  </footer>
+    <script src="../jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="../Bootstrap v5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="../fontawesome-free-6.1.1-web/js/all.min.js"></script>
+    <script src="../paroller.js-master/paroller.js-master/dist/jquery.paroller.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
