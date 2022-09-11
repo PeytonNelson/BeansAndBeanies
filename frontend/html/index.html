@@ -78,7 +78,44 @@
       </div>
     </div>
   </div>
+  <section id="quickDescription" class="container-fluid">
+   
+  </section>
+  <div id="menuFavorites" class="container-fluid border border-light" style="background-color: #965015">
+    <div class="col-12 text-center">
+      <div class="row">
+        <div class="col-4 position-relative">
+          <h2 class="text-center text-light fw-bold position-absolute top-50 start-50 translate-middle" style="font-family: Lemon;">POPULAR</h2>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <div class="row">
+            <div class="card text-bg-dark p-0 border-0 mt-3 mb-3 me-3" style="width: 180px !important; height: 270px !important">
+              <img id="imgIrish" src="../images/irish.jpg" class="img-fluid rounded" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">The Irish</h5>
+              </div>
+            </div>
+            <div class="card text-bg-dark p-0 border-0 mt-3 mb-3 me-3" style="width: 180px !important;">
+              <img id="imgIrish" src="../images/irish.jpg" class="img-fluid rounded" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">The Irish</h5>
+              </div>
+            </div>
+            <div class="card text-bg-dark p-0 border-0 mt-3 mb-3" style="width: 180px !important;">
+              <img id="imgIrish" src="../images/irish.jpg" class="img-fluid rounded" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">The Irish</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 position-relative">
+          <h2 class="text-center text-light fw-bold position-absolute top-50 start-50 translate-middle" style="font-family: Lemon;">ITEMS</h2>
+        </div>
+      </div>
 
+    </div>
+  </div>
   <div id="infoCards">
     <h2 class="text-center fw-bolder m-3" style="font-family:Hussar; "><u>Our Values</u></h2>
     <div class="row"></div>
@@ -125,21 +162,32 @@
       </div>
     </div>
   </div>
-  <footer>
-    <ul id="socialNavList" class="flex-row navbar-nav ms-md-auto align-items-center me-lg-5">
+  <footer  style="font-family: Hussar; font-size: 15px; background-color: rgb(242, 239, 239);">
+    <ul id="footerNav" class="nav justify-content-center pt-3">
+      <li class="nav-item me-5">
+        <a id="goHome" class="nav-link active" aria-current="page" href="#">HOME</a>
+      </li>
+      <li id="menuList" class="nav-item dropdown me-5">
+        <a id="goMenu" class="nav-link" href="menu.html" id="navbarDropdownMenuLink" role="button" aria-expanded="false">
+         MENU
+        </a>
+      </li> 
+      <li class="nav-item me-4">
+        <a id="goAboutUS" class="nav-link" href="about.html">ABOUT US</a>
+      </li>
+      <li id="orderAheadItem" class="nav-item me-5">
+        <a id="goOrderAhead" class="nav-link" href="orderAhead.html">ORDER AHEAD</a>
+      </li>           
+    </ul>
+    <ul id="footerSocialNav" class="nav justify-content-center">
       <li class="nav-item">
         <a id="instaIcon" class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
       </li>
-
       <li class="nav-item">
         <a id="fbIcon" class="nav-link" href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
-      </li>
-      <li class="nav-item fs-2 fw-lighter">|  
-      </li>
-      <li id="userItem" class="nav-item ">
-        <a id="userAnchor" class="nav-link" href="#"><i class="fa-solid fa-circle-user fa-2xl"></i></a>
-      </li>           
+      </li>          
     </ul>
+    <p class="text-muted text-center" style=" font-family: sans-serif; font-size: 11px; color: rgb(102, 106, 110);">2022 Beans & Beanies Coffee (*Not an actual coffee shop). This is for development and showcase use only.</p>
   </footer>
     <script src="../jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="../Bootstrap v5.2/js/bootstrap.bundle.min.js"></script>
