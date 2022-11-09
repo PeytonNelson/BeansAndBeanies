@@ -2,7 +2,7 @@
   "name": "beansandbeanies",
   "version": "1.0.0",
   "description": "Coffee Shop Web App",
-  "main": "api/server.js",
+  "main": "backend/api/server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
