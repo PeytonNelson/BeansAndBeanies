@@ -1,14 +1,16 @@
-// $('#goOrderAhead').hover(() => {
-//     $('#toGoMug').toggleClass('d-none');
-//     $('#toGoMug').slideDown('slow');
 
-
-
-
-// }) 
 $('#menuList').hover(() => {
     $('#dropdownMenu').toggleClass('show')
 });
+
+$('#imgIrish').hover(() => {
+    $('#divViewPopItem1').toggleClass('d-none');
+})
+$('#cardFavItemThree').hover(() => {
+    $('#imgIrish3').toggleClass('d-none');
+    $('#anchorFavItem3').toggleClass('d-none');
+    $('#fav3Title').toggleClass('d-none');
+})
 
 $('#cardQuality').paroller({
     factorXs: .2,
